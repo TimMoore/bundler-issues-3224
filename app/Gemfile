@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+
+gem 'faraday'
+
+source "https://repo.fury.io/tmoore/" do
+  gem 'private-gem1', "0.0.7"
+  gem 'private-gem2', "0.2.0"
+end
